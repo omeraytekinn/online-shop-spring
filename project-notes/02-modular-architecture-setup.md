@@ -90,11 +90,3 @@ Each module inherits from this root unless it has its own.
 * Isolated responsibilities
 * Reusable base for other services (with common-lib in future)
 * More readable and professional-looking architecture
-
----
-
-## 📌 Next Steps
-
-* Define common library module for shared utilities (optional)
-* Add CI/CD support (build domain/app first, then infra)
-* Document each layer with usage examples
