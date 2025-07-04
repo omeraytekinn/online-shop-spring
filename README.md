@@ -26,6 +26,9 @@ This project follows Domain-Driven Design (DDD) principles and is divided into m
 
 For detailed domain design and context mappings, see the [Domain Design documentation](project-notes/01-domain-design.md).
 
+
+For modular folder structure and technical setup, see the [Modular Architecture Setup](project-notes/02-modular-architecture-setup.md).
+
 ---
 
 ## Project Structure
@@ -42,4 +45,5 @@ The project is organized into multiple microservices, each with its own domain a
 - `api-gateway`  
 - `service-discovery`
 
+Each service is implemented using a modular structure (`domain`, `application`, `infrastructure`) following Hexagonal Architecture principles.  
 Each service contains its own README file detailing service-specific information.
